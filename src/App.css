@@ -1,0 +1,477 @@
+.fa-cart{
+  font-size: 25px;
+  position: relative;
+
+}
+.count{
+  position: absolute;
+ bottom: 25px;
+
+font-size: 18px;
+
+
+}
+
+.special-heading{
+  color: #FFC0CB;
+  font-weight: 800;
+  font-size: 50px;
+  font-style: italic;
+  font-family: 'Dancing Script', cursive;
+}
+.link{
+  text-decoration: none;
+font-size: 16px;
+color: white;
+font-weight: 600;
+transition: 0.3s ease;
+position: relative;
+}
+a{
+  text-decoration: none;
+}
+.link:hover{
+color: black;
+text-decoration: none;
+
+}
+
+
+.navbar{
+  background: linear-gradient(to right, #87CEFA 50%, #FFC0CB 50%);
+  box-shadow: 0 5px 15px rgba(0,0, 0, 0.06);
+  width: 100%;
+height: auto;
+  position: fixed;
+  top: 0;
+
+  z-index: 1000;
+}
+.brand h3{
+  color: white;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 35px;
+  font-family: 'Dancing Script', cursive;
+}
+#items{
+  height: auto;
+width: 100%;
+
+}
+#about{
+  height: auto;
+  width: 100%;
+  
+}
+#cart{
+  height: auto;
+
+}
+
+.aboutsec{
+  width: 48%;
+  margin: 10px;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.aboutsec2>img{
+  width: 100%;
+}
+.special-footer{
+  color: #FFC0CB;
+  font-size: 50px;
+  font-style: italic;
+}
+.about>img{
+  width: 100%;
+  height: 400px;
+}
+.contact{
+  width: 100%;
+
+  background: url("./imgs/Unknown.jpeg" ) no-repeat center;
+  background-position: center;
+  background-size: 100% 100%;
+  height: auto;
+}
+.cont{
+  background: linear-gradient(to right, #87CEFA 50%, #FFC0CB 50%);
+}
+a{
+  color: white;
+}
+.card-item {
+  width: 48%;
+  margin: 10px;
+  background-color: #87CEFA;
+  overflow: hidden;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  height: auto;
+}
+
+.card-item2 {
+  width: 48%;
+  margin: 10px;
+  background-color: #FFC0CB;
+  overflow: hidden;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  height: auto;
+}
+
+.desc {
+  font-size: 12px;
+}
+
+.card-item2 > .card-body > .title {
+  font-style: italic;
+}
+
+.card-item2 > .card-body > .price {
+  border-radius: 50px;
+  text-align: center;
+}
+
+.card-item2 > .card-body > .rate {
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 6px;
+}
+
+.card-item > .card-body > .title {
+  font-style: italic;
+}
+
+.card-item > .card-body > .price {
+  border-radius: 50px;
+  text-align: center;
+  padding: 3px 12px;
+}
+
+.card-item > .card-body > .rate {
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
+  padding: 2px 8px;
+}
+.cart-img{
+  width: 40%;
+  height: 40%;
+}
+
+
+
+.container {
+  margin-top: 20px;
+}
+
+/* Style for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Style for table headers */
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Style for table data cells */
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Style for the product image */
+img.img-fluid {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style for the quantity buttons */
+.btn-quantity {
+  padding: 4px 8px;
+  font-size: 1rem;
+}
+
+/* Style for the plus button */
+.btn-increase {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Style for the minus button */
+.btn-decrease {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Style for the quantity value */
+.quantity-value {
+  font-weight: bold;
+}
+.total{
+  background-color: #FFC0CB;
+  width: 100%;
+  height: auto;
+  
+}
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  td, th {
+    padding: 6px;
+  }
+
+  img.img-fluid {
+    max-width: 80px;
+  }
+  #about{
+    height: auto;
+    width: 100%;
+    
+  }
+  .contact{
+    height: auto;
+  }
+  .navbar{
+    height: auto;
+  }
+  .landing{
+    height: auto;
+  }
+}
+@media only screen and (min-width: 100px) and (max-width:299px) {
+  body{
+    overflow-x: hidden;
+  }
+ 
+  .card-btn{
+    width: 100%;
+
+
+  }
+  .brand h3{
+  display: none;
+  }
+  .card-item{
+    width: 98%;
+height: auto;
+   }
+   .card-item2{
+    width: 98%;
+ height: auto;
+ 
+   }
+   .cart-img{
+    width: 24%;
+    height: 24%;
+  
+   }
+   .aboutsec{
+    width: 98%;
+  
+  }
+  
+  #about{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  }
+  .contact{
+    height: auto;
+    overflow: hidden;
+width: 100%;
+  }
+  .landing{
+    height: auto;
+    overflow: hidden;
+width: 100%;
+  }
+}
+@media  only screen  and (min-width: 300px) and (max-width:576px){
+  body{
+    overflow-x: hidden;
+  }
+ 
+.card-item{
+ width: 98%;
+height: auto;
+}
+.card-item2{
+  width: 98%;
+height: auto;
+
+ }
+ .price {
+  width: auto; /* Allow the content to determine the width */
+  padding: 2px 4px; /* Adjust padding as needed */
+}
+
+.rate {
+  padding: 2px 4px; /* Adjust padding as needed */
+}
+.card-btn{
+  width: 100%;
+padding: 15px 20px;
+}
+ .cart-img{
+  width: 100%;
+  height: 24%;
+ }
+ .aboutsec{
+  width: 98%;
+ 
+}
+
+#about{
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  
+}
+.contact{
+  height: auto;
+  overflow: hidden;
+width: 100%;
+}
+.landing{
+  height: auto;
+  overflow: hidden;
+width: 100%;
+}
+}
+@media  only screen  and (min-width: 577px) and (max-width:990px){
+  body{
+    overflow-x: hidden;
+  }
+  .card-item{
+   width: 98%;
+  }
+  .card-item2{
+    width: 98%;
+
+   }
+   .cart-img{
+    width: 40%;
+    height: 40%;
+   }
+   .aboutsec{
+    width: 98%;
+  
+  }
+ 
+  #about{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  .landing{
+    height: auto;
+    overflow: hidden;
+width: 100%;
+  }
+  }
+  @media  only screen  and (min-width: 991px) and (max-width:1200px){
+    body{
+      overflow-x: hidden;
+    }
+    .card-item{
+     width: 98%;
+  
+    }
+    .card-item2{
+      width: 98%;
+  
+     }
+     .cart-img{
+      width: 40%;
+      height: 40%;
+     }
+     .aboutsec{
+      width: 98%;
+     
+    }
+ 
+    .navbar{
+      height: 80px;
+      text-align: center;
+     }
+    }
+    @media  only screen and (min-width:1400px ){
+      .card-item{
+        width: 48%;
+          margin: 10px;
+          background-color: #87CEFA;
+          overflow: hidden;
+          position: relative;
+        }
+        .aboutsec{
+          width: 48%;
+       
+        }
+      
+      .card-item2{
+        width: 48%;
+
+    
+       }
+       .cart-img{
+        width: 30%;
+        height: 30%;
+       }
+       .navbar{
+        height: 80px;
+        
+       }
+      }
+      .landing{
+        width: 100%;
+        height: auto;
+        background: linear-gradient(to right, #87CEFA 50%, #FFC0CB 50%);
+     
+      }
+      .land{
+        background: transparent;
+        border-radius: 50px;
+        padding: 10px 15px;
+        border: 1px solid white;
+
+      }
+      .land:hover{
+      background-color: green;
+
+      }
+      .card-btn {
+        width: 100%; /* Take full width on all screen sizes */
+        border-radius: 50px;
+        margin-top: 10px; /* Adjust margin as needed for spacing */
+      }
+      
+      /* For smaller screens, you can reduce the button's font size and padding */
+      @media (max-width: 576px) {
+        .card-btn {
+          font-size: 12px;
+          padding: 5px 10px;
+        }
+      }
