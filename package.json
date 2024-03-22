@@ -1,7 +1,7 @@
 {
   "name": "squezes",
   "version": "0.1.0",
-  "homepage": "https://AmrKhaled03.github.io/task26",
+
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
